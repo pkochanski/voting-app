@@ -1,0 +1,15 @@
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\Voting-app.Backend.Application\bin\Debug\net6.0\Voting-app.Backend.Application.deps.json
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\Voting-app.Backend.Application\bin\Debug\net6.0\Voting-app.Backend.Application.dll
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\Voting-app.Backend.Application\bin\Debug\net6.0\Voting-app.Backend.Application.pdb
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\Voting-app.Backend.Application\bin\Debug\net6.0\Voting-app.Backend.DataAccess.dll
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\Voting-app.Backend.Application\bin\Debug\net6.0\Voting-app.Backend.DataAccess.pdb
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\Voting-app.Backend.Application\obj\Debug\net6.0\Voting-app.Backend.Application.csproj.AssemblyReference.cache
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\Voting-app.Backend.Application\obj\Debug\net6.0\Voting-app.Backend.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\Voting-app.Backend.Application\obj\Debug\net6.0\Voting-app.Backend.Application.AssemblyInfoInputs.cache
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\Voting-app.Backend.Application\obj\Debug\net6.0\Voting-app.Backend.Application.AssemblyInfo.cs
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\Voting-app.Backend.Application\obj\Debug\net6.0\Voting-app.Backend.Application.csproj.CoreCompileInputs.cache
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\Voting-app.Backend.Application\obj\Debug\net6.0\Voting-app.Backend.Application.csproj.CopyComplete
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\Voting-app.Backend.Application\obj\Debug\net6.0\Voting-app.Backend.Application.dll
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\Voting-app.Backend.Application\obj\Debug\net6.0\refint\Voting-app.Backend.Application.dll
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\Voting-app.Backend.Application\obj\Debug\net6.0\Voting-app.Backend.Application.pdb
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\Voting-app.Backend.Application\obj\Debug\net6.0\ref\Voting-app.Backend.Application.dll

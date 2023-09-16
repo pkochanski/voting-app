@@ -1,0 +1,12 @@
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\Voting-app.Backend.DataAccess\bin\Debug\net6.0\Voting-app.Backend.DataAccess.deps.json
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\Voting-app.Backend.DataAccess\bin\Debug\net6.0\Voting-app.Backend.DataAccess.dll
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\Voting-app.Backend.DataAccess\bin\Debug\net6.0\Voting-app.Backend.DataAccess.pdb
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\Voting-app.Backend.DataAccess\obj\Debug\net6.0\Voting-app.Backend.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\Voting-app.Backend.DataAccess\obj\Debug\net6.0\Voting-app.Backend.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\Voting-app.Backend.DataAccess\obj\Debug\net6.0\Voting-app.Backend.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\Voting-app.Backend.DataAccess\obj\Debug\net6.0\Voting-app.Backend.DataAccess.AssemblyInfo.cs
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\Voting-app.Backend.DataAccess\obj\Debug\net6.0\Voting-app.Backend.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\Voting-app.Backend.DataAccess\obj\Debug\net6.0\Voting-app.Backend.DataAccess.dll
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\Voting-app.Backend.DataAccess\obj\Debug\net6.0\refint\Voting-app.Backend.DataAccess.dll
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\Voting-app.Backend.DataAccess\obj\Debug\net6.0\Voting-app.Backend.DataAccess.pdb
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\Voting-app.Backend.DataAccess\obj\Debug\net6.0\ref\Voting-app.Backend.DataAccess.dll

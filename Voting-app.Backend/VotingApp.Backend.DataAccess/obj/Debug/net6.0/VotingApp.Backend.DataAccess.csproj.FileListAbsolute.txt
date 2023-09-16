@@ -1,0 +1,14 @@
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\VotingApp.Backend.DataAccess\bin\Debug\net6.0\VotingApp.Backend.DataAccess.deps.json
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\VotingApp.Backend.DataAccess\bin\Debug\net6.0\VotingApp.Backend.DataAccess.dll
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\VotingApp.Backend.DataAccess\bin\Debug\net6.0\VotingApp.Backend.DataAccess.pdb
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\VotingApp.Backend.DataAccess\obj\Debug\net6.0\VotingApp.Backend.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\VotingApp.Backend.DataAccess\obj\Debug\net6.0\VotingApp.Backend.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\VotingApp.Backend.DataAccess\obj\Debug\net6.0\VotingApp.Backend.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\VotingApp.Backend.DataAccess\obj\Debug\net6.0\VotingApp.Backend.DataAccess.AssemblyInfo.cs
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\VotingApp.Backend.DataAccess\obj\Debug\net6.0\VotingApp.Backend.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\VotingApp.Backend.DataAccess\obj\Debug\net6.0\VotingApp.Backend.DataAccess.dll
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\VotingApp.Backend.DataAccess\obj\Debug\net6.0\refint\VotingApp.Backend.DataAccess.dll
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\VotingApp.Backend.DataAccess\obj\Debug\net6.0\VotingApp.Backend.DataAccess.pdb
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\VotingApp.Backend.DataAccess\obj\Debug\net6.0\ref\VotingApp.Backend.DataAccess.dll
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\VotingApp.Backend.DataAccess\bin\Debug\net6.0\VotingApp.Backend.DataAccess.runtimeconfig.json
+C:\Users\Piotr\Documents\Projekt\voting-app\Voting-app.Backend\VotingApp.Backend.DataAccess\obj\Debug\net6.0\VotingApp.Backend.DataAccess.genruntimeconfig.cache

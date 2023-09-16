@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VotingApp.Backend", "VotingApp.Backend\VotingApp.Backend.csproj", "{CDBA2116-6F15-43EA-96C6-6EEC420C55D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VotingApp.Backend.DataAccess", "VotingApp.Backend.DataAccess\VotingApp.Backend.DataAccess.csproj", "{AD385C5A-D742-4B09-88CA-89344C3CF9A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VotingApp.Backend.Application", "VotingApp.Backend.Application\VotingApp.Backend.Application.csproj", "{D847FB77-F8C8-461B-B30E-A263656E23ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CDBA2116-6F15-43EA-96C6-6EEC420C55D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDBA2116-6F15-43EA-96C6-6EEC420C55D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDBA2116-6F15-43EA-96C6-6EEC420C55D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDBA2116-6F15-43EA-96C6-6EEC420C55D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD385C5A-D742-4B09-88CA-89344C3CF9A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD385C5A-D742-4B09-88CA-89344C3CF9A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD385C5A-D742-4B09-88CA-89344C3CF9A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD385C5A-D742-4B09-88CA-89344C3CF9A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D847FB77-F8C8-461B-B30E-A263656E23ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D847FB77-F8C8-461B-B30E-A263656E23ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D847FB77-F8C8-461B-B30E-A263656E23ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D847FB77-F8C8-461B-B30E-A263656E23ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
