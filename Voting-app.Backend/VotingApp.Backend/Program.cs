@@ -13,7 +13,14 @@ builder.Services.AddSwaggerGen();
 builder.Services.ConfigureDataAccess(builder.Configuration);
 builder.Services.ConfigureApplication();
 builder.Services.AddTransient<ExceptionMiddleware>();
-
+builder.Services.AddCors(o =>
+{
+    o.AddPolicy("CorsPolicy",
+        policyBuilder => policyBuilder
+            .WithOrigins("http://localhost:4200")
+            .AllowAnyMethod()
+            .AllowAnyHeader());
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -24,7 +31,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseCors("CorsPolicy");
 app.UseAuthorization();
 
 app.MapControllers();

@@ -1,0 +1,15 @@
+.vote-container{
+    padding:1em;
+    .title{
+        button{
+            font-size:1.5em;
+        }
+        
+    }
+    .vote-form{
+        display: flex;
+        flex-direction: row;
+        gap:1em;
+        align-items: center;
+    }
+}

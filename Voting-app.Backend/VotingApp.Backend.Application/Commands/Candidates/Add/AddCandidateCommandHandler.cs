@@ -20,7 +20,7 @@ public class AddCandidateCommandHandler:ICommandHandler<AddCandidateCommand,Unit
             Name = request.Name
         };
 
-        _context.Candidates.Add(candidate);
+        await _context.Candidates.AddAsync(candidate,cancellationToken);
         await _context.SaveChangesAsync(cancellationToken);
 
         return Unit.Value;

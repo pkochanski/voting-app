@@ -50,15 +50,9 @@ namespace VotingApp.Backend.DataAccess.Migrations
                     b.Property<int>("CandidateId")
                         .HasColumnType("int");
 
-                    b.Property<int>("VoterId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
 
                     b.HasIndex("CandidateId");
-
-                    b.HasIndex("VoterId")
-                        .IsUnique();
 
                     b.ToTable("Votes");
                 });
@@ -80,6 +74,8 @@ namespace VotingApp.Backend.DataAccess.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("VoteId");
+
                     b.ToTable("Voters");
                 });
 
@@ -91,25 +87,21 @@ namespace VotingApp.Backend.DataAccess.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("VotingApp.Backend.DataAccess.Entities.Voter", "Voter")
-                        .WithOne("Vote")
-                        .HasForeignKey("VotingApp.Backend.DataAccess.Entities.Vote", "VoterId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("Candidate");
+                });
 
-                    b.Navigation("Voter");
+            modelBuilder.Entity("VotingApp.Backend.DataAccess.Entities.Voter", b =>
+                {
+                    b.HasOne("VotingApp.Backend.DataAccess.Entities.Vote", "Vote")
+                        .WithMany()
+                        .HasForeignKey("VoteId");
+
+                    b.Navigation("Vote");
                 });
 
             modelBuilder.Entity("VotingApp.Backend.DataAccess.Entities.Candidate", b =>
                 {
                     b.Navigation("Votes");
-                });
-
-            modelBuilder.Entity("VotingApp.Backend.DataAccess.Entities.Voter", b =>
-                {
-                    b.Navigation("Vote");
                 });
 #pragma warning restore 612, 618
         }

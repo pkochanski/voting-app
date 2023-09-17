@@ -1,8 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CandidatesComponent } from './components/candidates/candidates.component';
+import { HttpClientModule } from '@angular/common/http';
+import { VotersComponent } from './components/voters/voters.component';
+import { VoteComponent } from './components/vote/vote.component';
 
 @NgModule({
   declarations: [
@@ -10,7 +14,11 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    BrowserAnimationsModule,
+    CandidatesComponent,
+    HttpClientModule,
+    VotersComponent,
+    VoteComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

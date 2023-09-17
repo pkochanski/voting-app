@@ -38,6 +38,7 @@ public class ExceptionMiddleware:IMiddleware
             exception switch
             {
                 ValidationException => StatusCodes.Status422UnprocessableEntity,
+                NotFoundException => StatusCodes.Status400BadRequest,
                 _ => StatusCodes.Status500InternalServerError
             };
         private static string GetTitle(Exception exception) =>

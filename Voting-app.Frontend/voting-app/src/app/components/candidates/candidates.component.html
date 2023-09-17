@@ -1,0 +1,33 @@
+<div class="table-container">
+    <h3 class="title">Candidates <mat-icon (click)="toggleAddMode()">add_circle_outline</mat-icon></h3>
+    <div class="add-form-container" *ngIf="addMode">
+        <form [formGroup]="addCandidateForm" (submit)="addCandidate()">
+            <mat-form-field>
+                <mat-label>Name</mat-label>
+                <input matInput placeholder="Candidate name" [formControl]="addCandidateForm.controls.name">
+            </mat-form-field>
+            <button mat-button color="primary" [disabled]="addCandidateForm.invalid">Add</button>
+        </form>
+    </div>
+    <table class="mat-elevation-z8">
+        <thead>
+            <th>Name</th>
+            <th>Votes</th>
+        </thead>
+        <tbody>
+            <ng-container *ngIf="candidates$ | async as candidates">
+                <tr *ngFor="let candidate of candidates.list">
+                    <td>{{candidate.name}}</td>
+                    <td>{{candidate.votes}}</td>
+                </tr>
+                <ng-container *ngIf="!candidates.list.length">
+                    <div class="no-data-message">There are no candidates yet</div>
+                </ng-container>
+            </ng-container>
+        </tbody>
+    </table>
+</div>
+
+<ng-template #noCandidates>
+    <div>There are no candidates yet</div>
+</ng-template>

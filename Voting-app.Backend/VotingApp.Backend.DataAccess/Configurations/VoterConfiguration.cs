@@ -10,8 +10,6 @@ public class VoterConfiguration:BaseEntityConfiguration, IEntityTypeConfiguratio
     {
         base.Configure(builder);
         builder.Navigation(x => x.Vote);
-        builder.HasOne(x => x.Vote).WithOne(x=>x.Voter);
-        
-        
+        builder.HasOne(x => x.Vote);
     }
 }
